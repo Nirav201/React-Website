@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.layout{
+  max-width: 1200px;
+  padding: 0px 30px;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.menu-main{
+  background: #10252e;  
+}
+.menu-inner{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-part ul li{
+  position: relative;
+  padding: 0;
+  margin: 0 25px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: normal;
+  color: #fff;
+}
+.menu-part ul li:hover{color: #35b8f8;}
+
+.hero-main{position: relative;}
+.hero-img{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  object-fit: cover;
+  height: 654px;  
+  width: 100%;
+}
+.hero-main-inner{
+  padding: 200px 0px;
+}
+.hero-main-inner h5{
+  color: #fff;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.hero-main-inner h1{
+  color: #fff;
+  font-size: 64px;
+  font-weight: bold;  
+}
+.hero-main-inner h1 span{
+  color: #35b8f8;
+  
+
+}
+.hero-main-inner p{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.hero-act-btn a{
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background: #35b8f8;
+  transition: all .3s ease-in-out;
+  padding: 15px 25px;
+  margin-top: 25px;
+  display: inline-block;
+}
+.business-block .b-icon{transition: 0.3s ease;}
+.business-block:hover .b-icon{scale: 1.1;}
